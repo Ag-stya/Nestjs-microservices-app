@@ -1,0 +1,18 @@
+# Node modules should be installed in container
+node_modules/
+
+# Git repo
+.git
+.gitignore
+
+# Build output
+dist/
+dist.do
+
+# Environment files (never copy secrets)
+.env
+*.env
+
+# Misc
+README.md
+.DS_Store
